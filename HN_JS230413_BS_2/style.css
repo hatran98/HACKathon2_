@@ -1,0 +1,54 @@
+*{margin :0 ;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+.form {
+  border : 1px solid rgba(128, 128, 128, 0.236);
+  width: 30%;
+  margin-left: 10%;
+  height: 400px;
+  line-height: 40px;
+}
+
+.listHocvien table,.listHocvien th,.listHocvien td {
+  border:1px solid rgba(128, 128, 128, 0.327)
+}
+
+
+.form button {
+  margin-left:7rem;
+  margin-top : 20px;
+  padding : 5px 50px;
+}
+
+
+.container {
+  display:flex;
+}
+
+.listHocvien {
+  width: 45%;
+  margin-left: 3%;
+  border: 1px solid black;
+  height: 800px;
+  line-height: 30px;
+}
+
+.form h4 {
+text-align: center;}
+
+.form tr td{
+  padding-left: 10px;
+}
+
+.listHocvien h4{
+  text-align: center;
+}
+
+.listHocvien div {padding:10px 0 };
+
+.error {
+   color :red;
+}
